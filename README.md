@@ -21,7 +21,7 @@ Works entirely locally and doesn’t require any Philips Hue cloud login or mobi
 1. Clone the repo:
 
    ```bash
-   git clone https://github.com/yourusername/hue-utils.git
+   git clone https://github.com/zkm/hue-utils.git
    cd hue-utils
    ```
 
