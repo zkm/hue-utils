@@ -15,8 +15,17 @@ if not BRIDGE_IP:
 b = Bridge(BRIDGE_IP)
 b.connect()
 
-# List bulbs
+# Get bulbs
 lights = b.get_light_objects('id')
 print("Your Hue bulbs:")
 for light_id, light in lights.items():
     print(f"ID {light_id}: {light.name}")
+
+# Output to Markdown file
+with open("bulb_list.md", "w") as f:
+    f.write("# Hue Bulbs\n\n")
+    f.write("| ID | Name |\n")
+    f.write("|----|------|\n")
+    for light_id, light in lights.items():
+        f.write(f"| {light_id} | {light.name} |\n")
+

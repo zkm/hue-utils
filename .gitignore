@@ -155,7 +155,7 @@ dmypy.json
 .pyre/
 
 # pytype static type analyzer
-.pytype/
+.pytype
 
 # Cython debug symbols
 cython_debug/
@@ -173,3 +173,5 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 .env
+bulb_list.md 
+
