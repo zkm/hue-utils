@@ -79,5 +79,14 @@ Then re-run the script.
 
 ---
 
+## Snapshot / Markdown output
+
+Running the main script will create a Markdown snapshot named `bulb_list.md` in the current working directory. The snapshot includes a table of lights (ID, name and current state) and a table of groups/rooms. This is useful for a quick inventory or for checking states without using the Hue app.
+
+Notes:
+- On first run the script may prompt you to press the Hue Bridge link button to authorize the app. Press it and re-run if you see a connection error.
+- The repository includes `.env.example` with a placeholder for `HUE_BRIDGE_IP`. Copy it to `.env` and set your bridge IP before running.
+- `bulb_list.md` and `.env` are listed in `.gitignore` by default so snapshots and local secrets won't be accidentally committed.
+
 ### License
 This project is licensed under the [MIT LICENSE](LICENSE).
