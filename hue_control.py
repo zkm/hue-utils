@@ -10,10 +10,9 @@ if not BRIDGE_IP:
     print("Error: HUE_BRIDGE_IP is not set in your .env", file=sys.stderr)
     sys.exit(2)
 
-b = Bridge(BRIDGE_IP)
-
 try:
     # On first run you may need to press the bridge link button
+    b = Bridge(BRIDGE_IP)
     b.connect()
 except Exception as e:
     print(f"Failed to connect to Hue Bridge at {BRIDGE_IP}.\n{e}\n"
