@@ -19,7 +19,7 @@ Works entirely locally and doesn’t require any Philips Hue cloud login or mobi
 
 ## Requirements
 
-- Python 3.7+
+- Python 3.10+
 - A Hue Bridge on your local network
 - Philips Hue bulbs already paired with the bridge
 
