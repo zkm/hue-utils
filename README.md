@@ -3,7 +3,7 @@
 [![CI](https://github.com/zkm/hue-utils/actions/workflows/python-ci.yml/badge.svg)](https://github.com/zkm/hue-utils/actions/workflows/python-ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 
-![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-3776AB?logo=python&logoColor=white)
+![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)
 ![phue](https://img.shields.io/badge/phue-5A5A5A)
 ![Philips Hue local bridge](https://img.shields.io/badge/Philips%20Hue-local%20bridge-0065D3?logo=philipshue&logoColor=white)
 
